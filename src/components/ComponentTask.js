@@ -4,7 +4,7 @@ export default class ComponentTask extends Component {
     render() {
         return (
             <div>
-                Task
+                Task- add new line edit
             </div>
         )
     }

@@ -6,6 +6,7 @@ export default class ComponentNext extends Component {
             <div>
                 ComponentNext
 				Edit Component that haven't merge
+                Pushed from master
             </div>
         )
     }

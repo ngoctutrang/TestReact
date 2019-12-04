@@ -5,6 +5,7 @@ export default class ComponentNext extends Component {
         return (
             <div>
                 ComponentNext
+				Edit Component that haven't merge
             </div>
         )
     }

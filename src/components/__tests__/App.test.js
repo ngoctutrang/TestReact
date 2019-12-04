@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import App from '../App';
 import { shallow } from 'enzyme';
-import CommentBox from '../CommentBox';
-import ComponentList from '../CommentList';
+import CommentBox from 'components/CommentBox';
+import ComponentList from 'components/CommentList';
 
 
 it('shows a comment box', () => {

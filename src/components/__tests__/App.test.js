@@ -5,13 +5,16 @@ import { shallow } from 'enzyme';
 import CommentBox from 'components/CommentBox';
 import ComponentList from 'components/CommentList';
 
+let wrapped;
+
+beforeEach(() => {
+	wrapped = shallow(<App />);
+})
 
 it('shows a comment box', () => {
-	const wrapped = shallow(<App />);
 	expect(wrapped.find(CommentBox).length).toEqual(1);
 });
 
 it('shows a ComponentList', () => {
-	const wrapped = shallow(<App />);
 	expect(wrapped.find(ComponentList).length).toEqual(1);
 })

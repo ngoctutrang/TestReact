@@ -27,7 +27,7 @@ export default class CommentBox extends Component {
                 <h4>Add a comment</h4>
 				addBox
 				aaddBox Commit
-
+I add some lines
                 <textarea onChange ={this.onHandleChange} value = {this.state.comment}/>
 
                 <div>

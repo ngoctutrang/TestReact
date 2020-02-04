@@ -5,6 +5,7 @@ export default class CommentBox extends Component {
         return (
             <form>
                 <h4>Add a comment</h4>
+				addBox
                 <textarea />
                 <div>
                     <button>Submit</button>

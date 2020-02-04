@@ -28,6 +28,8 @@ export default class CommentBox extends Component {
 				addBox
 				aaddBox Commit
 I add some lines
+
+Lala
                 <textarea onChange ={this.onHandleChange} value = {this.state.comment}/>
 
                 <div>

@@ -8,7 +8,6 @@ export default class ComponentTask extends Component {
         return (
             <div>
                 Task- add new line edit Master add Pr Again
-				Task- add new line edit Master add Pr Again-Test Commit
             </div>
         )
     }
